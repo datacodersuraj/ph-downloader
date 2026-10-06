@@ -1,0 +1,13 @@
+# Generated on 2026-11-05
+# Project-specific overrides
+* text=auto eol=lf
+
+src/**/*.ts linguist-detectable
+
+* text=auto
+public/**/*.html linguist-vendored
+*.tsx linguist-detectable
+yarn.lock linguist-generated
+
+build/* linguist-vendored
+*.jpeg binary
